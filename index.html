@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <div class="logo">
+          <img class="odin" src="/odin-lined.png" alt="logo" />
+          <h1>ODIN</h1>
+        </div>
+        <img class="background" src="/background.jpg" alt="background" />
+      </div>
+      <div class="right-container">
+        <div class="top">
+          <h3>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </h3>
+          <h3>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </h3>
+        </div>
+        <div class="middle">
+          <form action="http://httpbin.org/post" method="post">
+            <div class="input-area">
+              <h2>Let's do this !</h2>
+
+              <div class="first-row">
+                <div class="first-name">
+                  <label for="first_name">FIRST NAME</label>
+                  <input type="text" id="first_name" name="first_name" />
+                </div>
+                <div class="last-name">
+                  <label for="last_name">LAST NAME</label>
+                  <input type="text" id="last_name" name="last_name" />
+                </div>
+              </div>
+              <div class="second-row">
+                <div class="email">
+                  <label for="mail">EMAIL</label>
+                  <input type="email" id="mail" name="mail" />
+                </div>
+                <div class="phone-number">
+                  <label for="phone_number">PHONE NUMBER</label>
+                  <input type="tel" id="phone_number" name="phone_number" />
+                </div>
+              </div>
+              <div class="third-row">
+                <div class="password1">
+                  <label for="password1">PASSWORD</label>
+                  <input type="password" id="password1" name="password1" />
+                </div>
+                <div class="password2">
+                  <label for="password2">CONFIRM PASSWORD</label>
+                  <input type="password" id="password2" name="password2" />
+                </div>
+              </div>
+            </div>
+            <button class="btn" type="submit">Create Account</button>
+            <div class="bottom">
+                <p>Already have an account ?</p>
+                <a href="">Log in</a>
+            </div>
+            
+          </form>
+        </div>
+        
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
