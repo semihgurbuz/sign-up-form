@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-color: #d3d3d3;
+  background-color: #f9fafb;
 }
 .container {
   padding: 0;
@@ -84,12 +84,16 @@ label {
 input {
   margin-bottom: 2rem;
   width: 100%;
+  border: 1.5px solid #e5e7eb;
 }
 
 input:focus {
   outline: none;
   border: 1px solid blue;
   box-shadow: 0 0 3px #719ece;
+}
+input:invalid {
+  border-color: red;
 }
 
 .first-row,
